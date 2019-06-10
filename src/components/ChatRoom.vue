@@ -61,7 +61,7 @@ export default {
       errors: [],
       nickname: this.$route.params.nickname,
       chat: {},
-      socket: io('http://warm-mountain-97356.herokuapp.com')
+      socket: io('https://warm-mountain-97356.herokuapp.com')
     }
   },
   created () {
